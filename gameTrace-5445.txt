@@ -1,0 +1,214 @@
+n=5 b=4 s=4 t=5
+blocs=[(1, 1), (2, 2), (3, 0), (0, 1)]
+Player 1: 3 d= 6 a= 0
+Player 1: 3 d= 6 a= 0
+
+  ABCDE
+ +-----
+0|...*.
+1|**...
+2|..*..
+3|.....
+4|.....
+
+
+Player Xunder AI control plays: x = A, y = 0
+i Evaluation time: 105.099221s
+ii Heuristic evaluation: 4544434
+iii Evaluations by depth: {0: 1, 1: 21, 2: 420, 3: 1159, 4: 16848, 5: 284138, 6: 4543552, 7: 0, 8: 0}
+
+  ABCDE		(move1)
+ +-----
+0|X..*.
+1|**...
+2|..*..
+3|.....
+4|.....
+
+
+Player Ounder AI control plays: x = A, y = 2
+i Evaluation time: 100.041564s
+ii Heuristic evaluation: 5459846
+iii Evaluations by depth: {0: 2, 1: 41, 2: 800, 3: 2671, 4: 39747, 5: 648234, 6: 10002637, 7: 0, 8: 0}
+
+  ABCDE		(move2)
+ +-----
+0|X..*.
+1|**...
+2|O.*..
+3|.....
+4|.....
+
+
+Player Xunder AI control plays: x = A, y = 3
+i Evaluation time: 95.054251s
+ii Heuristic evaluation: 4692187
+iii Evaluations by depth: {0: 3, 1: 60, 2: 1142, 3: 4252, 4: 62243, 5: 983514, 6: 14694079, 7: 0, 8: 0}
+
+  ABCDE		(move3)
+ +-----
+0|X..*.
+1|**...
+2|O.*..
+3|X....
+4|.....
+
+
+Player Ounder AI control plays: x = A, y = 4
+i Evaluation time: 90.053246s
+ii Heuristic evaluation: 5019688
+iii Evaluations by depth: {0: 4, 1: 78, 2: 1448, 3: 6236, 4: 89978, 5: 1369690, 6: 19713210, 7: 0, 8: 0}
+
+  ABCDE		(move4)
+ +-----
+0|X..*.
+1|**...
+2|O.*..
+3|X....
+4|O....
+
+
+Player Xunder AI control plays: x = B, y = 0
+i Evaluation time: 85.024935s
+ii Heuristic evaluation: 4962564
+iii Evaluations by depth: {0: 5, 1: 95, 2: 1720, 3: 8681, 4: 121912, 5: 1783883, 6: 24675330, 7: 0, 8: 0}
+
+  ABCDE		(move5)
+ +-----
+0|XX.*.
+1|**...
+2|O.*..
+3|X....
+4|O....
+
+
+Player Ounder AI control plays: x = B, y = 2
+i Evaluation time: 79.559947s
+ii Heuristic evaluation: 4859278
+iii Evaluations by depth: {0: 6, 1: 111, 2: 1960, 3: 11635, 4: 158884, 5: 2226431, 6: 29534283, 7: 0, 8: 0}
+
+  ABCDE		(move6)
+ +-----
+0|XX.*.
+1|**...
+2|OO*..
+3|X....
+4|O....
+
+
+Player Xunder AI control plays: x = B, y = 3
+i Evaluation time: 73.1447179s
+ii Heuristic evaluation: 3429425
+iii Evaluations by depth: {0: 7, 1: 126, 2: 2170, 3: 14326, 4: 190276, 5: 2570918, 6: 32963503, 7: 0, 8: 0}
+
+  ABCDE		(move7)
+ +-----
+0|XX.*.
+1|**...
+2|OO*..
+3|XX...
+4|O....
+
+
+Player Ounder AI control plays: x = B, y = 4
+i Evaluation time: 51.9897571s
+ii Heuristic evaluation: 2156220
+iii Evaluations by depth: {0: 8, 1: 140, 2: 2352, 3: 16510, 4: 214300, 5: 2811158, 6: 35119723, 7: 0, 8: 0}
+
+  ABCDE		(move8)
+ +-----
+0|XX.*.
+1|**...
+2|OO*..
+3|XX...
+4|OO...
+
+
+Player Xunder AI control plays: x = C, y = 0
+i Evaluation time: 28.59164s
+ii Heuristic evaluation: 1183680
+iii Evaluations by depth: {0: 9, 1: 153, 2: 2508, 3: 18226, 4: 231240, 5: 2963618, 6: 36303403, 7: 0, 8: 0}
+
+  ABCDE		(move9)
+ +-----
+0|XXX*.
+1|**...
+2|OO*..
+3|XX...
+4|OO...
+
+
+Player Ounder AI control plays: x = C, y = 1
+i Evaluation time: 12.6476171s
+ii Heuristic evaluation: 632016
+iii Evaluations by depth: {0: 10, 1: 165, 2: 2640, 3: 19546, 4: 242940, 5: 3057218, 6: 36935419, 7: 0, 8: 0}
+
+  ABCDE		(move10)
+ +-----
+0|XXX*.
+1|**O..
+2|OO*..
+3|XX...
+4|OO...
+
+
+Player Xunder AI control plays: x = C, y = 3
+i Evaluation time: 6.441221s
+ii Heuristic evaluation: 314496
+iii Evaluations by depth: {0: 11, 1: 176, 2: 2750, 3: 20536, 4: 250716, 5: 3111650, 6: 37249915, 7: 0, 8: 0}
+
+  ABCDE		(move11)
+ +-----
+0|XXX*.
+1|**O..
+2|OO*..
+3|XXX..
+4|OO...
+
+
+Player Ounder AI control plays: x = C, y = 4
+i Evaluation time: 3.459388s
+ii Heuristic evaluation: 141120
+iii Evaluations by depth: {0: 12, 1: 186, 2: 2840, 3: 21256, 4: 255644, 5: 3141218, 6: 37391035, 7: 0, 8: 0}
+
+  ABCDE		(move12)
+ +-----
+0|XXX*.
+1|**O..
+2|OO*..
+3|XXX..
+4|OOO..
+
+
+Player Xunder AI control plays: x = D, y = 3
+i Evaluation time: 1.287426s
+ii Heuristic evaluation: 40320
+iii Evaluations by depth: {0: 13, 1: 195, 2: 2904, 3: 21704, 4: 257996, 5: 3152978, 6: 37431355, 7: 0, 8: 0}
+
+  ABCDE		(move13)
+ +-----
+0|XXX*.
+1|**O..
+2|OO*..
+3|XXXX.
+4|OOO..
+
+
+Player Ounder AI control plays: x = D, y = 4
+i Evaluation time: 0.470305s
+ii Heuristic evaluation: 12600
+iii Evaluations by depth: {0: 14, 1: 203, 2: 2953, 3: 21998, 4: 259256, 5: 3158018, 6: 37443955, 7: 0, 8: 0}
+
+  ABCDE		(move14)
+ +-----
+0|XXX*.
+1|**O..
+2|OO*..
+3|XXXX.
+4|OOOO.
+
+The winner is X
+
+i Evaluation time: 52.3475169s
+ii Toatl Heuristic evaluation: 37447874
+iii Evaluations by depth: {0: 14, 1: 203, 2: 2953, 3: 21998, 4: 259256, 5: 3158018, 6: 37443955, 7: 0, 8: 0}

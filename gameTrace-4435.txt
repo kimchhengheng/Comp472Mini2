@@ -1,0 +1,107 @@
+n=4 b=4 s=3 t=5
+blocs=[(0, 0), (0, 3), (3, 0), (3, 3)]
+Player 1: 3 d= 6 a= 0
+Player 1: 3 d= 6 a= 0
+
+  ABCD
+ +----
+0|*..*
+1|....
+2|....
+3|*..*
+
+
+Player Xunder AI control plays: x = B, y = 1
+i Evaluation time: 13.28931s
+ii Heuristic evaluation: 628992
+iii Evaluations by depth: {0: 1, 1: 12, 2: 132, 3: 1320, 4: 11880, 5: 95040, 6: 628992, 7: 0, 8: 0}
+
+  ABCD		(move1)
+ +----
+0|*..*
+1|.X..
+2|....
+3|*..*
+
+
+Player Ounder AI control plays: x = C, y = 2
+i Evaluation time: 6.35746s
+ii Heuristic evaluation: 318528
+iii Evaluations by depth: {0: 2, 1: 23, 2: 242, 3: 2310, 4: 19800, 5: 150480, 6: 947520, 7: 0, 8: 0}
+
+  ABCD		(move2)
+ +----
+0|*..*
+1|.X..
+2|..O.
+3|*..*
+
+
+Player Xunder AI control plays: x = A, y = 1
+i Evaluation time: 2.8839741s
+ii Heuristic evaluation: 100800
+iii Evaluations by depth: {0: 3, 1: 33, 2: 332, 3: 3030, 4: 24280, 5: 177360, 6: 1048320, 7: 0, 8: 0}
+
+  ABCD		(move3)
+ +----
+0|*..*
+1|XX..
+2|..O.
+3|*..*
+
+
+Player Ounder AI control plays: x = A, y = 2
+i Evaluation time: 0.8148949s
+ii Heuristic evaluation: 36000
+iii Evaluations by depth: {0: 4, 1: 42, 2: 404, 3: 3534, 4: 26884, 5: 190380, 6: 1084320, 7: 0, 8: 0}
+
+  ABCD		(move4)
+ +----
+0|*..*
+1|XX..
+2|O.O.
+3|*..*
+
+
+Player Xunder AI control plays: x = B, y = 0
+i Evaluation time: 0.233006s
+ii Heuristic evaluation: 8280
+iii Evaluations by depth: {0: 5, 1: 50, 2: 453, 3: 3828, 4: 27964, 5: 194700, 6: 1092600, 7: 0, 8: 0}
+
+  ABCD		(move5)
+ +----
+0|*X.*
+1|XX..
+2|O.O.
+3|*..*
+
+
+Player Ounder AI control plays: x = B, y = 2
+i Evaluation time: 0.0500038s
+ii Heuristic evaluation: 1296
+iii Evaluations by depth: {0: 6, 1: 57, 2: 489, 3: 4008, 4: 28444, 5: 196140, 6: 1093896, 7: 0, 8: 0}
+
+  ABCD		(move6)
+ +----
+0|*X.*
+1|XX..
+2|OOO.
+3|*..*
+
+
+Player Xunder AI control plays: x = C, y = 1
+i Evaluation time: 0.013571s
+ii Heuristic evaluation: 360
+iii Evaluations by depth: {0: 7, 1: 63, 2: 514, 3: 4108, 4: 28684, 5: 196620, 6: 1094256, 7: 0, 8: 0}
+
+  ABCD		(move7)
+ +----
+0|*X.*
+1|XXX.
+2|OOO.
+3|*..*
+
+The winner is O!
+i Evaluation time: 3.37746s
+ii Toatl Heuristic evaluation: 1094256
+iii Evaluations by depth: {0: 7, 1: 63, 2: 514, 3: 4108, 4: 28684, 5: 196620, 6: 1094256, 7: 0, 8: 0}
